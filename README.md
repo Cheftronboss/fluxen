@@ -1,3 +1,5 @@
+# fluxen
+
 Copyright (c) 2026 Cheftronboss
 
 All rights reserved.
@@ -7,3 +9,4 @@ No permission is granted to use, copy, modify, or distribute this software.
 
 
 Fluxen is an open source app which allows small freelancers to easily create invoices and quotes for their clients.
+
