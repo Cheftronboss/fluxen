@@ -4,3 +4,6 @@ All rights reserved.
 
 You may view the source code for educational purposes only.
 No permission is granted to use, copy, modify, or distribute this software.
+
+
+Fluxen is an open source app which allows small freelancers to easily create invoices and quotes for their clients.
