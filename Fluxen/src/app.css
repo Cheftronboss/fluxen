@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f13;
+  color: #e8e8f0;
+}
+
+main {
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.main_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50rem;
+}
+
+.main_menu_button{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    transition: all 0.33s ease-in-out
+}
+
+.main_menu_button:hover{
+    padding: 1rem 1.75rem;
+    transition: all 0.33s ease-in-out;
+    cursor: pointer;
+}
+

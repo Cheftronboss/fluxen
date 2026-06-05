@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "kill-port": "powershell -Command \"Get-Process -Id (Get-NetTCPConnection -LocalPort 1420).OwningProcess | Stop-Process -Force\"",
+    "tauri:dev": "npm run kill-port & tauri dev"
   },
   "license": "MIT",
   "dependencies": {
